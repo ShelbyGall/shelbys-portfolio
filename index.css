@@ -64,12 +64,18 @@ body {
     color:whitesmoke
 }
 
+#header-container a:link:hover {
+    color:aquamarine;
+}
+
 #header-container a:visited {
     color: whitesmoke;
 }
 #header-container a:visited:hover {
     color: aquamarine;
 }
+
+
 
 
 .resume-info {
