@@ -1,0 +1,158 @@
+/* [id] {
+   border: dashed palegreen;
+} */
+
+/* * {
+    border-style: dashed;
+} */
+
+body {
+    background-color: rgb(43,42,47);
+    text-align: center;
+    color: whitesmoke;
+    font-family: DejaVu Sans Mono, monospace;
+}
+
+
+#header-container {
+    font-family: Verdana, sans-serif;
+    height: 60px;
+    background-color: rgb(62, 62, 62);
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    left:0px;
+    top: 0px;
+    right: 0px;
+    padding: 10px;
+    text-align: left;
+    z-index: 2;
+}
+
+#code-icon {
+    width: 45px;
+    height: 45px;
+}
+
+#header-container h1 {
+    position: relative;
+    top: -20px;
+    width: 65%;
+    text-align: left;
+}
+
+#header-container a {
+    padding: 5px 0px 0px 0px;
+    margin: 0px 4px;
+    position: relative;
+    top: 5px;
+    border-top: 2px solid whitesmoke;
+    width: 14%;
+    text-decoration: none;
+    text-align: center;
+}
+
+#header-container a:hover {
+    border-top: 2px solid aquamarine;
+}
+
+.header-content a:hover {
+    color: aquamarine;
+}
+
+.header-content:visited {
+    color: whitesmoke;
+}
+.header-content:visited:hover {
+    color: aquamarine;
+}
+
+
+.resume-info {
+    font-family: Verdana, sans-serif;
+    color: gray;
+    background-color: whitesmoke;
+    padding: 15px;
+    margin: 10px 10px;
+    position: relative;
+    right: 10px;
+    border-radius: 10px;
+    visibility: hidden;
+    width: 43%;
+}
+
+.resume-info h3 {
+    text-align: left;
+    padding: 5px;
+    
+    border-radius: 10px;
+    visibility: visible;
+}
+
+.resume-info:hover {
+    visibility: visible;
+}
+
+#resume-info-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ #content {
+    position: relative;
+    top: 100px;
+    z-index: 1;
+ }
+
+.page-content {
+   display: flex;
+}
+
+/* #soft-icon {
+    width: 170px;
+    height: 170px;
+} */
+
+.page-content #resume-info-container {
+   width: 50%;
+}
+
+#job-title-container {
+    margin: auto;
+}
+
+#code-background {
+    position:absolute;
+    z-index:-1;
+    width: 55%;
+    height: 100%;
+    right: 0px;
+    bottom: 0px;
+    opacity: 5%;
+}
+
+
+#name {
+    font-style: italic;
+    font-weight: lighter;
+    position: relative;
+    left: -30px;
+    top: 20px;
+    text-align: left;
+    padding: 8px;
+    width: 55%;
+}
+
+#job-title-container h2 {
+    padding: 3px;
+}
+
+#job-title-container h5 {
+    position: relative;
+    color:aquamarine;
+    padding: 8px;
+    left: 130px;
+    bottom: 18px;
+    border-top: 2px solid whitesmoke;
+    width: 55%;
+}
