@@ -60,6 +60,10 @@ body {
     color: aquamarine;
 }
 
+.header-content a:link {
+    color:whitesmoke
+}
+
 .header-content:visited {
     color: whitesmoke;
 }
