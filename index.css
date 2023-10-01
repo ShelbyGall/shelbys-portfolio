@@ -56,18 +56,18 @@ body {
     border-top: 2px solid aquamarine;
 }
 
-.header-content a:hover {
+#header-container a:hover {
     color: aquamarine;
 }
 
-.header-content a:link {
+#header-container a:link {
     color:whitesmoke
 }
 
-.header-content:visited {
+#header-container a:visited {
     color: whitesmoke;
 }
-.header-content:visited:hover {
+#header-container a:visited:hover {
     color: aquamarine;
 }
 
