@@ -56,10 +56,6 @@ body {
     border-top: 2px solid aquamarine;
 }
 
-#header-container a:hover {
-    color: aquamarine;
-}
-
 #header-container a:link {
     color:whitesmoke
 }
