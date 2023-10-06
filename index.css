@@ -37,7 +37,7 @@ body {
 #header-container h1 {
     position: relative;
     top: -20px;
-    width: 65%;
+    width: 60%;
     text-align: left;
 }
 
@@ -47,7 +47,7 @@ body {
     position: relative;
     top: 5px;
     border-top: 2px solid whitesmoke;
-    width: 14%;
+    width: 10%;
     text-decoration: none;
     text-align: center;
 }
