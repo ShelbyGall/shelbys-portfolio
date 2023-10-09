@@ -1,0 +1,57 @@
+:root {
+    --dim: 40px
+}
+
+body {
+    margin:auto;
+    text-align: center;
+    background-color: rgb(62, 62, 62);
+    color:white;
+    font-family: DejaVu Sans Mono, monospace;
+}
+img {
+    height: var(--dim);
+    width: var(--dim);
+}
+
+.layout-container {
+    display: grid;
+    gap: 5px;
+    grid-template-areas:
+    'header header header header'
+    'left left right right'
+    'footer footer footer footer';
+}
+
+.l-item {
+    background-color: rgba(30, 222, 135, 0.479);
+    border: 2px solid beige;
+}
+
+#header {
+    display: flex;
+    grid-area: header;
+    font-family: Verdana, sans-serif;
+}
+
+#header h1 {
+    text-align: left;
+}
+
+#header img {
+    position: relative;
+    top: 20px;
+    padding-right: 7px;
+}
+
+#proj-1 {
+    grid-area: left;
+}
+
+#proj-2 {
+    grid-area: right;
+}
+
+#footer {
+    grid-area: footer;
+}
