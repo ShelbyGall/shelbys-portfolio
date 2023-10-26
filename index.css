@@ -20,7 +20,7 @@ body {
     background-color: rgb(62, 62, 62);
     position: fixed;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     left:0px;
     top: 0px;
     right: 0px;
