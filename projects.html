@@ -2,22 +2,54 @@
 <html lang="en">
     <head>
         <title>Projects</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="/resources/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicon-16x16.png">
+        <link rel="manifest" href="/resources/site.webmanifest">
         <link rel="stylesheet"type="text/css" href="projects.css">
     </head>
     <body>
         <div class="layout-container">
-            <div class="l-item" id="header">
+
+            <!-- header -->
+            <div id="header">
                 <img alt="projects" src="/resources/projects.png">
                 <h1>My Projects</h1>
             </div>
-            <div class="l-item" id="proj-1">
+
+            <!-- project displays -->
+            <div class="proj-items" id="proj-1">
+                <h5>Easy Breezy</h5>
                 <embed src="https://easy-breezy.netlify.app">
+                
+                <div id="proj-1-interaction" class="interaction" >
+                    <h3 id="like-count-1">0</h3>
+                    <img id="proj-1-like" alt="like" src="/resources/heart-1.png">
+                    <img alt="comment" src="/resources/comment.png">
+                </div>
             </div>
-            <div class="l-item" id="proj-2">
+            <div class="proj-items" id="proj-2">
+                <h5>Add To List</h5>
                 <embed src="https://add-to-cart-shelby-gallegos.netlify.app">
+                
+                <div id="proj-2-interaction" class="interaction" >
+                    <h3 id="like-count-2">0</h3>
+                    <img id="proj-2-like" alt="like" src="/resources/heart-1.png">
+                    <img alt="comment" src="/resources/comment.png">
+                </div>
             </div>
-            <div class="l-item" id="footer">
-                <img alt="load" src="/resources/load.gif">
+
+            <!-- project descriptions -->
+            <div id="proj-1-descr">
+                <img class="load" alt="load" src="/resources/load.gif">
+            </div>
+            <div id="proj-2-descr">
+                <img class="load" alt="load" src="/resources/load.gif">
+            </div>
+
+            <!-- footer -->
+            <div  id="footer">
+                <img class="load" alt="load" src="/resources/load.gif">
             </div>
           </div>
     </body>

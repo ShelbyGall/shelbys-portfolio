@@ -1,5 +1,4 @@
-
-img {
+.load {
     width: 40px;
     height: 40px;
 }
@@ -7,29 +6,42 @@ img {
 body {
     margin:auto;
     text-align: center;
-    background-color: rgb(62, 62, 62);
     color:white;
+    background-color: rgb(43,42,47);
     font-family: DejaVu Sans Mono, monospace;
 }
 
 
 .layout-container {
     display: grid;
-    gap: 5px;
-    
     grid-template-areas:
     'header header header header'
     'left left right right'
+    'ldes ldes rdes  rdes'
     'footer footer footer footer';
 }
 
-.l-item {
-    background-color: rgba(30, 222, 135, 0.479);
-    border: 2px solid beige;
+.proj-items {
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.proj-items h5 {
+    position: relative;
+    color:aquamarine;
+    border-top: 2px solid whitesmoke;
+}
+
+.proj-items img {
+    cursor: pointer;
+    user-select: none;
+    width: 30px;
+    height: 30px;
 }
 
 #header {
     display: flex;
+    background-color: rgb(62, 62, 62);
     grid-area: header;
     font-family: Verdana, sans-serif;
 }
@@ -42,23 +54,42 @@ body {
     position: relative;
     top: 20px;
     padding-right: 7px;
+    padding-left: 7px;
+    width: 45px;
+    height: 45px;
 }
 
 #proj-1 {
     grid-area: left;
+    margin-right:15px;
 }
 
 #proj-2 {
     grid-area: right;
+    margin-left: 15px;
+}
+
+.interaction {
+    display: flex;
+}
+
+#proj-1-descr {
+    grid-area: ldes;
+}
+
+#proj-2-descr {
+    grid-area: rdes;
 }
 
 #footer {
+    background-color: rgb(62, 62, 62);
     grid-area: footer;
 }
 
 embed {
     width: 100%;
-    min-height: 1100px;
+    min-height: 500px;
+    border-radius: 30px;
 }
 
 
