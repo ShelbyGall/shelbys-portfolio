@@ -2,7 +2,7 @@
 // const mongoose = require("mongoose")
 
 // //connection url for mongodb
-// const URI = "mongodb+srv://shelbygall:Rustyboy461!@cluster0.whpdwvg.mongodb.net/portfolio?retryWrites=true&w=majority"
+// const URI = "mongodb+srv://shelbygall:<password>@cluster0.whpdwvg.mongodb.net/portfolio?retryWrites=true&w=majority"
 
 // //uses mongoose to connect to our database 
 // //.connect() is async and therefore returns a promise
