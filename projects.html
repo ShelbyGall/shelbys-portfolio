@@ -9,13 +9,13 @@
         <link rel="stylesheet"type="text/css" href="projects.css">
     </head>
     <body>
+        <!-- header -->
+        <div id="header">
+            <img alt="projects" src="/resources/projects.png">
+            <h1>My Projects</h1>
+        </div>
         <div class="layout-container">
 
-            <!-- header -->
-            <div id="header">
-                <img alt="projects" src="/resources/projects.png">
-                <h1>My Projects</h1>
-            </div>
 
             <!-- project displays -->
             <div class="proj-items" id="proj-1">
@@ -25,7 +25,7 @@
                 <div id="proj-1-interaction" class="interaction" >
                     <h3 id="like-count-1">0</h3>
                     <img id="proj-1-like" alt="like" src="/resources/heart-1.png">
-                    <img alt="comment" src="/resources/comment.png">
+                    <img id="proj-1-comm" alt="comment" src="/resources/comment.png">
                 </div>
             </div>
             <div class="proj-items" id="proj-2">
@@ -35,23 +35,41 @@
                 <div id="proj-2-interaction" class="interaction" >
                     <h3 id="like-count-2">0</h3>
                     <img id="proj-2-like" alt="like" src="/resources/heart-1.png">
-                    <img alt="comment" src="/resources/comment.png">
+                    <img id="proj-2-comm" alt="comment" src="/resources/comment.png">
                 </div>
             </div>
 
             <!-- project descriptions -->
-            <div id="proj-1-descr">
-                <img class="load" alt="load" src="/resources/load.gif">
+            <div id="proj-1-descr" class="proj-comm">
+                <div>
+                    <h4>Comment for project 1</h4>
+                    <p>This is a little example comment for the my easy breezy project</p>
+                </div>
+                <div>
+                    <h4>Comment for project 1</h4>
+                    <p>This is a little example comment for the my easy breezy project</p>
+                </div>
+                <div>
+                    <h4>Comment for project 1</h4>
+                    <p>This is a little example comment for the my easy breezy project</p>
+                </div>
+
+                
             </div>
-            <div id="proj-2-descr">
-                <img class="load" alt="load" src="/resources/load.gif">
+            <div id="proj-2-descr" class="proj-comm">
+
+                <div>
+                    <h4>Comment for project 2</h4>
+                    <p>This is a little example comment for the my Add to List project</p>
+                </div>
+
             </div>
 
-            <!-- footer -->
-            <div  id="footer">
-                <img class="load" alt="load" src="/resources/load.gif">
-            </div>
-          </div>
+        </div>
+        <!-- footer -->
+        <div  id="footer">
+            <img class="load" alt="load" src="/resources/load.gif">
+        </div>
+          <script type="module" src="/projects.js"></script>
     </body>
-    <script src="/projects.js"></script>
 </html>

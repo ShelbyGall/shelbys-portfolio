@@ -1,3 +1,7 @@
+/* * {
+    border: 2px dashed red;
+} */
+
 .load {
     width: 40px;
     height: 40px;
@@ -14,6 +18,9 @@ body {
 
 .layout-container {
     display: grid;
+    margin: auto;
+    max-width: 1000px;
+    min-height: 100vh;
     grid-template-areas:
     'header header header header'
     'left left right right'
@@ -41,6 +48,7 @@ body {
 
 #header {
     display: flex;
+    min-width: 100vh;
     background-color: rgb(62, 62, 62);
     grid-area: header;
     font-family: Verdana, sans-serif;
@@ -67,6 +75,16 @@ body {
 #proj-2 {
     grid-area: right;
     margin-left: 15px;
+}
+
+.proj-comm {
+    display: none;
+}
+
+.proj-comm div {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 5px;
 }
 
 .interaction {
