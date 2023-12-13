@@ -1,6 +1,4 @@
 
-
-
 function nextInfo(n){
     renderInfo(slideIndex += n)
 }
